@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06D640F17F8708919C4694367BE9789B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */; };
+		0A872DBBBB6E42315C084FE3546349FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */; };
+		0E3CCF222BFC3623403D3F7AE6AA9360 /* SBJson4StreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 417746214AF8D50F5FEAD3B015B61D3E /* SBJson4StreamWriter.h */; };
+		1387DD5E5C04D76B96FF8BA2CEE6D75B /* Pods-KPgoLoco-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DCF1EE66AA4F11D3A6EA163503EE58C /* Pods-KPgoLoco-dummy.m */; };
+		25865D8C260D6DD5060FA6BF2CDCEF63 /* SBJson4StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E68DBB03F67449FD0C848F026E39BA /* SBJson4StreamParserState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2C567258E5478913B962BF4833E29DC6 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B96F133938A5A5CDF2E7E39333F58 /* Pods-dummy.m */; };
+		324F6D0610EA4B7B8B16A16577985D70 /* SBJson4Writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 64E85E3B3684C59727C3A7995798894A /* SBJson4Writer.h */; };
+		340D8CFA52B0BE0D673A34D0B64D06C8 /* Pods-KPgoLocoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 986FFF0F745C21A9EA82D14E09E078A4 /* Pods-KPgoLocoTests-dummy.m */; };
+		35E4A1BD8E6CCB172ED5A025CFAC0141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */; };
+		3910A908CECB0CD09EA36D4DDEA43033 /* SBJson4StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EFB8D4DA931A5F643D68614A468BB16 /* SBJson4StreamTokeniser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47AED75EFB2999476EB3A89D184A3873 /* Pods-KPgoLocoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7F5904F649C903EE566FDB6BD83EB0 /* Pods-KPgoLocoUITests-dummy.m */; };
+		56D28D0FA8E17FBD2192E2AC8E2DD811 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */; };
+		57BED80A7546C0C8F1AD9B6FB0970694 /* SBJson4StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = E4C12E57B5A16453D8ADF2325C1A3E0F /* SBJson4StreamWriterState.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		57C0948095E8040D0F37F9A42864EE4E /* SBJson4StreamWriterState.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BA38E550ED4E39ED1515BFCDC0E5C19 /* SBJson4StreamWriterState.h */; };
+		609D01EB009DF2C85A0ACA2E9091455C /* SBJson4Parser.h in Headers */ = {isa = PBXBuildFile; fileRef = AE737516A7EB57B12E7ED7F405E883A5 /* SBJson4Parser.h */; };
+		6BFD9A03DCA18163F30A961A10C6715F /* SBJson4StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2E327CD09C1BC94041DD242C05582A /* SBJson4StreamParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7154C37802DF22EC327D69AEEC514352 /* SBJson4Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E28CB8E2E6F19F0513ADD3B5A769C03 /* SBJson4Writer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		766502DC08D1679DB7C79514A1AF02AE /* SBJson4.h in Headers */ = {isa = PBXBuildFile; fileRef = E7D2A110CE36949E54D71720E4D24A46 /* SBJson4.h */; };
+		AB49879B437E0FC10BF2D6800D3077EE /* SBJson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADA4DAB2B49278CD70177B30E893CB8B /* SBJson-dummy.m */; };
+		AFFD9A2130914CCBC96081566F1F1D47 /* SBJson4StreamParserState.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D446DCF1A66A98FBE641937E99EC589 /* SBJson4StreamParserState.h */; };
+		CB4E0B5C9CA8A01C49534E731CDF4C4B /* SBJson4StreamTokeniser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B1ACDE88047793AA42FD60C182BA88F /* SBJson4StreamTokeniser.h */; };
+		D3670900B812CE45C3B3D6E8C94602E6 /* SBJson4StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2FF8C96735B64F46538E36D9A4F18C /* SBJson4StreamWriter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6664A79CCF870B9CA9A1166D61099F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */; };
+		EA163B8A37D074F4FD60613BE76D6873 /* SBJson4StreamParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 65E806CBDD6EC532C3B418C772844378 /* SBJson4StreamParser.h */; };
+		F3977EA362B1AFA903A6AA054EFEFEB1 /* SBJson4Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 94480C189117D3EEB02F13E758A1BD2C /* SBJson4Parser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		335CA9223B496BC4F90374CFC3E19593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B79616717E212DBA705906E128C4C9B;
+			remoteInfo = SBJson;
+		};
+		72E85A5DAEA4F4D8DCCC22C46C7AA4D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B79616717E212DBA705906E128C4C9B;
+			remoteInfo = SBJson;
+		};
+		CD481B90751F1EC82775DBA6720B476E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B79616717E212DBA705906E128C4C9B;
+			remoteInfo = SBJson;
+		};
+		D82FDA801BEF650F7B4F86D204BCAB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B79616717E212DBA705906E128C4C9B;
+			remoteInfo = SBJson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0973F592C708475732A6DD8FC840CA19 /* Pods-KPgoLoco.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPgoLoco.release.xcconfig"; sourceTree = "<group>"; };
+		0A449690E92E303AD59064DDE6740F18 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA032F808E73DF290CDBB355689A85E /* Pods-KPgoLoco-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPgoLoco-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C7F5904F649C903EE566FDB6BD83EB0 /* Pods-KPgoLocoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPgoLocoUITests-dummy.m"; sourceTree = "<group>"; };
+		0DECD0866208CD9E79A23413472F0BBC /* Pods-KPgoLocoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPgoLocoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		142A88199B0964001B34B6E9AAB15A4B /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		1DCF1EE66AA4F11D3A6EA163503EE58C /* Pods-KPgoLoco-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPgoLoco-dummy.m"; sourceTree = "<group>"; };
+		1FFD5490C2AEC3215B28EF6D6CB03FC6 /* libPods-KPgoLocoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KPgoLocoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2014D531C464FF3AF4046241561F6002 /* Pods-KPgoLocoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPgoLocoTests.release.xcconfig"; sourceTree = "<group>"; };
+		21E68DBB03F67449FD0C848F026E39BA /* SBJson4StreamParserState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4StreamParserState.m; path = src/main/objc/SBJson4StreamParserState.m; sourceTree = "<group>"; };
+		2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2BA38E550ED4E39ED1515BFCDC0E5C19 /* SBJson4StreamWriterState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4StreamWriterState.h; path = src/main/objc/SBJson4StreamWriterState.h; sourceTree = "<group>"; };
+		2E2E327CD09C1BC94041DD242C05582A /* SBJson4StreamParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4StreamParser.m; path = src/main/objc/SBJson4StreamParser.m; sourceTree = "<group>"; };
+		37F76F59CE505FBF0D0E8BED401CEB24 /* Pods-KPgoLocoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPgoLocoTests-resources.sh"; sourceTree = "<group>"; };
+		3BDD26090D530B8711880D6A0400AFF8 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E29A18379B31B020BB8B65FE1C5DDAD /* Pods-KPgoLocoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPgoLocoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		417746214AF8D50F5FEAD3B015B61D3E /* SBJson4StreamWriter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4StreamWriter.h; path = src/main/objc/SBJson4StreamWriter.h; sourceTree = "<group>"; };
+		46AD24D65A88EC998F0408C6283F5ACA /* Pods-KPgoLoco-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPgoLoco-resources.sh"; sourceTree = "<group>"; };
+		4FF9A0393935D4CB4CEF478DFD79A627 /* Pods-KPgoLocoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPgoLocoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5017E78B3288AE0A6A491E6431C72B12 /* Pods-KPgoLocoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPgoLocoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5564F81DDFBD41E84D1991A113F5FBAA /* libPods-KPgoLocoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KPgoLocoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B1ACDE88047793AA42FD60C182BA88F /* SBJson4StreamTokeniser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4StreamTokeniser.h; path = src/main/objc/SBJson4StreamTokeniser.h; sourceTree = "<group>"; };
+		5BE190D2AB19259B0FC5914B7E94C90D /* SBJson-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SBJson-Private.xcconfig"; sourceTree = "<group>"; };
+		5BE347DDC7C5A39D4EB6B0285FF317FA /* libSBJson.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSBJson.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA75256C897297039CC50EFB03AB3A8 /* Pods-KPgoLoco-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPgoLoco-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E28CB8E2E6F19F0513ADD3B5A769C03 /* SBJson4Writer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4Writer.m; path = src/main/objc/SBJson4Writer.m; sourceTree = "<group>"; };
+		64E85E3B3684C59727C3A7995798894A /* SBJson4Writer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4Writer.h; path = src/main/objc/SBJson4Writer.h; sourceTree = "<group>"; };
+		65E806CBDD6EC532C3B418C772844378 /* SBJson4StreamParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4StreamParser.h; path = src/main/objc/SBJson4StreamParser.h; sourceTree = "<group>"; };
+		6E41E4CD9FD800431A2B443BB2B6A7D4 /* Pods-KPgoLoco.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPgoLoco.debug.xcconfig"; sourceTree = "<group>"; };
+		75BF7904955C6C3D2E4892BDD19BA204 /* Pods-KPgoLocoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KPgoLocoUITests-resources.sh"; sourceTree = "<group>"; };
+		7D446DCF1A66A98FBE641937E99EC589 /* SBJson4StreamParserState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4StreamParserState.h; path = src/main/objc/SBJson4StreamParserState.h; sourceTree = "<group>"; };
+		7DB683DEE1F23F98FF043425DDF084CF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		7EFB8D4DA931A5F643D68614A468BB16 /* SBJson4StreamTokeniser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4StreamTokeniser.m; path = src/main/objc/SBJson4StreamTokeniser.m; sourceTree = "<group>"; };
+		849B96F133938A5A5CDF2E7E39333F58 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8F65DA352344C886BA8B8A2B17BE255E /* Pods-KPgoLocoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KPgoLocoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94480C189117D3EEB02F13E758A1BD2C /* SBJson4Parser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4Parser.m; path = src/main/objc/SBJson4Parser.m; sourceTree = "<group>"; };
+		9726B9DFA36787A109DECD8D624A992E /* Pods-KPgoLocoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KPgoLocoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		986FFF0F745C21A9EA82D14E09E078A4 /* Pods-KPgoLocoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KPgoLocoTests-dummy.m"; sourceTree = "<group>"; };
+		A58E781F1EB1201D09FC331C01EE4E04 /* SBJson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SBJson-prefix.pch"; sourceTree = "<group>"; };
+		ADA4DAB2B49278CD70177B30E893CB8B /* SBJson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SBJson-dummy.m"; sourceTree = "<group>"; };
+		AE737516A7EB57B12E7ED7F405E883A5 /* SBJson4Parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4Parser.h; path = src/main/objc/SBJson4Parser.h; sourceTree = "<group>"; };
+		B515746E71094C7CCA4D1615C8313326 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB2FF8C96735B64F46538E36D9A4F18C /* SBJson4StreamWriter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4StreamWriter.m; path = src/main/objc/SBJson4StreamWriter.m; sourceTree = "<group>"; };
+		CDB60B4B206179E8A2EA986B487D377B /* libPods-KPgoLoco.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KPgoLoco.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB447EC21F99828ECD55E1976724610 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D48214AD6C95ADB17AA25B251F6ED948 /* SBJson.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SBJson.xcconfig; sourceTree = "<group>"; };
+		E3618F63E6A3C2CB22796ACD09A0716D /* Pods-KPgoLocoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KPgoLocoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E4C12E57B5A16453D8ADF2325C1A3E0F /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SBJson4StreamWriterState.m; path = src/main/objc/SBJson4StreamWriterState.m; sourceTree = "<group>"; };
+		E7D2A110CE36949E54D71720E4D24A46 /* SBJson4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SBJson4.h; path = src/main/objc/SBJson4.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18FF2B172DE1BEC5068DAE1CF40DD185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35E4A1BD8E6CCB172ED5A025CFAC0141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD03306B2BBA70C41440B5B3FD15530 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6664A79CCF870B9CA9A1166D61099F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45D29A1B870AE8CBBFAEF31A612B3C4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56D28D0FA8E17FBD2192E2AC8E2DD811 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF9BED23391173D19B3843FE87225D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A872DBBBB6E42315C084FE3546349FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA6902F857E96BBC7CBD16208A9125A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06D640F17F8708919C4694367BE9789B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E383A3AB7FF8FA00DBAA970EC89DB43 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				E7D2A110CE36949E54D71720E4D24A46 /* SBJson4.h */,
+				AE737516A7EB57B12E7ED7F405E883A5 /* SBJson4Parser.h */,
+				94480C189117D3EEB02F13E758A1BD2C /* SBJson4Parser.m */,
+				65E806CBDD6EC532C3B418C772844378 /* SBJson4StreamParser.h */,
+				2E2E327CD09C1BC94041DD242C05582A /* SBJson4StreamParser.m */,
+				7D446DCF1A66A98FBE641937E99EC589 /* SBJson4StreamParserState.h */,
+				21E68DBB03F67449FD0C848F026E39BA /* SBJson4StreamParserState.m */,
+				5B1ACDE88047793AA42FD60C182BA88F /* SBJson4StreamTokeniser.h */,
+				7EFB8D4DA931A5F643D68614A468BB16 /* SBJson4StreamTokeniser.m */,
+				417746214AF8D50F5FEAD3B015B61D3E /* SBJson4StreamWriter.h */,
+				CB2FF8C96735B64F46538E36D9A4F18C /* SBJson4StreamWriter.m */,
+				2BA38E550ED4E39ED1515BFCDC0E5C19 /* SBJson4StreamWriterState.h */,
+				E4C12E57B5A16453D8ADF2325C1A3E0F /* SBJson4StreamWriterState.m */,
+				64E85E3B3684C59727C3A7995798894A /* SBJson4Writer.h */,
+				5E28CB8E2E6F19F0513ADD3B5A769C03 /* SBJson4Writer.m */,
+				CDFE52EF9FAD897F5FC6BCA72E7B835B /* Support Files */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2A2D3DF39B6722E390781D5FBD36FA04 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B35A2BA193447E4ED908EA5A444644C2 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				CC21C96CDA65068A05755F3104C2DE18 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B35A2BA193447E4ED908EA5A444644C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E383A3AB7FF8FA00DBAA970EC89DB43 /* SBJson */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8EE0176DE43D041C572EEF314238F33 /* Pods-KPgoLocoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3618F63E6A3C2CB22796ACD09A0716D /* Pods-KPgoLocoTests-acknowledgements.markdown */,
+				8F65DA352344C886BA8B8A2B17BE255E /* Pods-KPgoLocoTests-acknowledgements.plist */,
+				986FFF0F745C21A9EA82D14E09E078A4 /* Pods-KPgoLocoTests-dummy.m */,
+				37F76F59CE505FBF0D0E8BED401CEB24 /* Pods-KPgoLocoTests-resources.sh */,
+				9726B9DFA36787A109DECD8D624A992E /* Pods-KPgoLocoTests.debug.xcconfig */,
+				2014D531C464FF3AF4046241561F6002 /* Pods-KPgoLocoTests.release.xcconfig */,
+			);
+			name = "Pods-KPgoLocoTests";
+			path = "Target Support Files/Pods-KPgoLocoTests";
+			sourceTree = "<group>";
+		};
+		CC21C96CDA65068A05755F3104C2DE18 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D87742BEDC5D2908769D243AE857940E /* Pods */,
+				E8C345D96FC3552913824806AB879D9D /* Pods-KPgoLoco */,
+				C8EE0176DE43D041C572EEF314238F33 /* Pods-KPgoLocoTests */,
+				FC326E959C0DE79230D50484CFC6C688 /* Pods-KPgoLocoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A449690E92E303AD59064DDE6740F18 /* libPods.a */,
+				CDB60B4B206179E8A2EA986B487D377B /* libPods-KPgoLoco.a */,
+				1FFD5490C2AEC3215B28EF6D6CB03FC6 /* libPods-KPgoLocoTests.a */,
+				5564F81DDFBD41E84D1991A113F5FBAA /* libPods-KPgoLocoUITests.a */,
+				5BE347DDC7C5A39D4EB6B0285FF317FA /* libSBJson.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDFE52EF9FAD897F5FC6BCA72E7B835B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D48214AD6C95ADB17AA25B251F6ED948 /* SBJson.xcconfig */,
+				5BE190D2AB19259B0FC5914B7E94C90D /* SBJson-Private.xcconfig */,
+				ADA4DAB2B49278CD70177B30E893CB8B /* SBJson-dummy.m */,
+				A58E781F1EB1201D09FC331C01EE4E04 /* SBJson-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SBJson";
+			sourceTree = "<group>";
+		};
+		D87742BEDC5D2908769D243AE857940E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB447EC21F99828ECD55E1976724610 /* Pods-acknowledgements.markdown */,
+				3BDD26090D530B8711880D6A0400AFF8 /* Pods-acknowledgements.plist */,
+				849B96F133938A5A5CDF2E7E39333F58 /* Pods-dummy.m */,
+				142A88199B0964001B34B6E9AAB15A4B /* Pods-resources.sh */,
+				7DB683DEE1F23F98FF043425DDF084CF /* Pods.debug.xcconfig */,
+				B515746E71094C7CCA4D1615C8313326 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		E8C345D96FC3552913824806AB879D9D /* Pods-KPgoLoco */ = {
+			isa = PBXGroup;
+			children = (
+				5CA75256C897297039CC50EFB03AB3A8 /* Pods-KPgoLoco-acknowledgements.markdown */,
+				0AA032F808E73DF290CDBB355689A85E /* Pods-KPgoLoco-acknowledgements.plist */,
+				1DCF1EE66AA4F11D3A6EA163503EE58C /* Pods-KPgoLoco-dummy.m */,
+				46AD24D65A88EC998F0408C6283F5ACA /* Pods-KPgoLoco-resources.sh */,
+				6E41E4CD9FD800431A2B443BB2B6A7D4 /* Pods-KPgoLoco.debug.xcconfig */,
+				0973F592C708475732A6DD8FC840CA19 /* Pods-KPgoLoco.release.xcconfig */,
+			);
+			name = "Pods-KPgoLoco";
+			path = "Target Support Files/Pods-KPgoLoco";
+			sourceTree = "<group>";
+		};
+		FC326E959C0DE79230D50484CFC6C688 /* Pods-KPgoLocoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF9A0393935D4CB4CEF478DFD79A627 /* Pods-KPgoLocoUITests-acknowledgements.markdown */,
+				5017E78B3288AE0A6A491E6431C72B12 /* Pods-KPgoLocoUITests-acknowledgements.plist */,
+				0C7F5904F649C903EE566FDB6BD83EB0 /* Pods-KPgoLocoUITests-dummy.m */,
+				75BF7904955C6C3D2E4892BDD19BA204 /* Pods-KPgoLocoUITests-resources.sh */,
+				3E29A18379B31B020BB8B65FE1C5DDAD /* Pods-KPgoLocoUITests.debug.xcconfig */,
+				0DECD0866208CD9E79A23413472F0BBC /* Pods-KPgoLocoUITests.release.xcconfig */,
+			);
+			name = "Pods-KPgoLocoUITests";
+			path = "Target Support Files/Pods-KPgoLocoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C8AE4A191F006D3E1D74546A5A7A6EFE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				766502DC08D1679DB7C79514A1AF02AE /* SBJson4.h in Headers */,
+				609D01EB009DF2C85A0ACA2E9091455C /* SBJson4Parser.h in Headers */,
+				EA163B8A37D074F4FD60613BE76D6873 /* SBJson4StreamParser.h in Headers */,
+				AFFD9A2130914CCBC96081566F1F1D47 /* SBJson4StreamParserState.h in Headers */,
+				CB4E0B5C9CA8A01C49534E731CDF4C4B /* SBJson4StreamTokeniser.h in Headers */,
+				0E3CCF222BFC3623403D3F7AE6AA9360 /* SBJson4StreamWriter.h in Headers */,
+				57C0948095E8040D0F37F9A42864EE4E /* SBJson4StreamWriterState.h in Headers */,
+				324F6D0610EA4B7B8B16A16577985D70 /* SBJson4Writer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1B79616717E212DBA705906E128C4C9B /* SBJson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90CA0E968E6A5874BA9192B42B41AFBA /* Build configuration list for PBXNativeTarget "SBJson" */;
+			buildPhases = (
+				5B65AFA84DFE88BCF3AE5520E35FEFBD /* Sources */,
+				5DF9BED23391173D19B3843FE87225D1 /* Frameworks */,
+				C8AE4A191F006D3E1D74546A5A7A6EFE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBJson;
+			productName = SBJson;
+			productReference = 5BE347DDC7C5A39D4EB6B0285FF317FA /* libSBJson.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2D6CE86DE1A080BAD9FDA6DA5EC5037D /* Pods-KPgoLoco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D6E6BBA617B5E3B85F247AAB04E0E9 /* Build configuration list for PBXNativeTarget "Pods-KPgoLoco" */;
+			buildPhases = (
+				8F0F9065A8F1F9A495D2CD4312FEA2BC /* Sources */,
+				45D29A1B870AE8CBBFAEF31A612B3C4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A7EA7C40C03BE9565EEF7F54F9F472A /* PBXTargetDependency */,
+			);
+			name = "Pods-KPgoLoco";
+			productName = "Pods-KPgoLoco";
+			productReference = CDB60B4B206179E8A2EA986B487D377B /* libPods-KPgoLoco.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3AFF0E09A1004E6C14B9425B3B2C8CA3 /* Pods-KPgoLocoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12E2CE16CC6DBFE8E7816F40C4C5C37 /* Build configuration list for PBXNativeTarget "Pods-KPgoLocoTests" */;
+			buildPhases = (
+				90258A814583E0B2F9B9D37E878FE2BA /* Sources */,
+				BEA6902F857E96BBC7CBD16208A9125A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9824FD713C605BEFE6FBC6CA14B6D27 /* PBXTargetDependency */,
+			);
+			name = "Pods-KPgoLocoTests";
+			productName = "Pods-KPgoLocoTests";
+			productReference = 1FFD5490C2AEC3215B28EF6D6CB03FC6 /* libPods-KPgoLocoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		809EBF3C29B000EA972C93F1A6889511 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C638F8EFA97E3A2E2D3AB4276576CF50 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				47872DB5105D8404E8C251BC1A28C86B /* Sources */,
+				18FF2B172DE1BEC5068DAE1CF40DD185 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833F2E4C8BF8AAF2F74F8C2B37514C95 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 0A449690E92E303AD59064DDE6740F18 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EEDA3C92D9160A6F43515E04410FDF5A /* Pods-KPgoLocoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9189AA5B088E8B4E84AAF3C3602DB44C /* Build configuration list for PBXNativeTarget "Pods-KPgoLocoUITests" */;
+			buildPhases = (
+				DD0CD69E2259CAAB54BB425E5244DF7E /* Sources */,
+				3BD03306B2BBA70C41440B5B3FD15530 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0B79E88FBA7B513DBAE79A33F0FF314 /* PBXTargetDependency */,
+			);
+			name = "Pods-KPgoLocoUITests";
+			productName = "Pods-KPgoLocoUITests";
+			productReference = 5564F81DDFBD41E84D1991A113F5FBAA /* libPods-KPgoLocoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				809EBF3C29B000EA972C93F1A6889511 /* Pods */,
+				2D6CE86DE1A080BAD9FDA6DA5EC5037D /* Pods-KPgoLoco */,
+				3AFF0E09A1004E6C14B9425B3B2C8CA3 /* Pods-KPgoLocoTests */,
+				EEDA3C92D9160A6F43515E04410FDF5A /* Pods-KPgoLocoUITests */,
+				1B79616717E212DBA705906E128C4C9B /* SBJson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47872DB5105D8404E8C251BC1A28C86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C567258E5478913B962BF4833E29DC6 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B65AFA84DFE88BCF3AE5520E35FEFBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB49879B437E0FC10BF2D6800D3077EE /* SBJson-dummy.m in Sources */,
+				F3977EA362B1AFA903A6AA054EFEFEB1 /* SBJson4Parser.m in Sources */,
+				6BFD9A03DCA18163F30A961A10C6715F /* SBJson4StreamParser.m in Sources */,
+				25865D8C260D6DD5060FA6BF2CDCEF63 /* SBJson4StreamParserState.m in Sources */,
+				3910A908CECB0CD09EA36D4DDEA43033 /* SBJson4StreamTokeniser.m in Sources */,
+				D3670900B812CE45C3B3D6E8C94602E6 /* SBJson4StreamWriter.m in Sources */,
+				57BED80A7546C0C8F1AD9B6FB0970694 /* SBJson4StreamWriterState.m in Sources */,
+				7154C37802DF22EC327D69AEEC514352 /* SBJson4Writer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F0F9065A8F1F9A495D2CD4312FEA2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1387DD5E5C04D76B96FF8BA2CEE6D75B /* Pods-KPgoLoco-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90258A814583E0B2F9B9D37E878FE2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340D8CFA52B0BE0D673A34D0B64D06C8 /* Pods-KPgoLocoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD0CD69E2259CAAB54BB425E5244DF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AED75EFB2999476EB3A89D184A3873 /* Pods-KPgoLocoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A7EA7C40C03BE9565EEF7F54F9F472A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson;
+			target = 1B79616717E212DBA705906E128C4C9B /* SBJson */;
+			targetProxy = D82FDA801BEF650F7B4F86D204BCAB7B /* PBXContainerItemProxy */;
+		};
+		833F2E4C8BF8AAF2F74F8C2B37514C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson;
+			target = 1B79616717E212DBA705906E128C4C9B /* SBJson */;
+			targetProxy = 335CA9223B496BC4F90374CFC3E19593 /* PBXContainerItemProxy */;
+		};
+		B9824FD713C605BEFE6FBC6CA14B6D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson;
+			target = 1B79616717E212DBA705906E128C4C9B /* SBJson */;
+			targetProxy = CD481B90751F1EC82775DBA6720B476E /* PBXContainerItemProxy */;
+		};
+		C0B79E88FBA7B513DBAE79A33F0FF314 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SBJson;
+			target = 1B79616717E212DBA705906E128C4C9B /* SBJson */;
+			targetProxy = 72E85A5DAEA4F4D8DCCC22C46C7AA4D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FE0C0C5F699CD86ED4EB5C28503F1F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB683DEE1F23F98FF043425DDF084CF /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5A343CD033D5F67564168432EBADCBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E41E4CD9FD800431A2B443BB2B6A7D4 /* Pods-KPgoLoco.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		681C44EC21FA6CBC2111DFFD391DB209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE190D2AB19259B0FC5914B7E94C90D /* SBJson-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SBJson/SBJson-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7B193506258D34C7A460387A3E71436C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2014D531C464FF3AF4046241561F6002 /* Pods-KPgoLocoTests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		972A43EA06726E7C10919B6678550BDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9726B9DFA36787A109DECD8D624A992E /* Pods-KPgoLocoTests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A37F6AB4030A251A6BE4504C71255343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E29A18379B31B020BB8B65FE1C5DDAD /* Pods-KPgoLocoUITests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A39609AFB23B4F09B5D6181F6592322B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0973F592C708475732A6DD8FC840CA19 /* Pods-KPgoLoco.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C63877BD2520268466B1D425137069A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B515746E71094C7CCA4D1615C8313326 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D61C74BBD4AC37B31F838B093A5BF60C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE190D2AB19259B0FC5914B7E94C90D /* SBJson-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SBJson/SBJson-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3DE85D1F7DF879CD39EAADA9C6729AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DECD0866208CD9E79A23413472F0BBC /* Pods-KPgoLocoUITests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D6E6BBA617B5E3B85F247AAB04E0E9 /* Build configuration list for PBXNativeTarget "Pods-KPgoLoco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A343CD033D5F67564168432EBADCBCA /* Debug */,
+				A39609AFB23B4F09B5D6181F6592322B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90CA0E968E6A5874BA9192B42B41AFBA /* Build configuration list for PBXNativeTarget "SBJson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D61C74BBD4AC37B31F838B093A5BF60C /* Debug */,
+				681C44EC21FA6CBC2111DFFD391DB209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9189AA5B088E8B4E84AAF3C3602DB44C /* Build configuration list for PBXNativeTarget "Pods-KPgoLocoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A37F6AB4030A251A6BE4504C71255343 /* Debug */,
+				F3DE85D1F7DF879CD39EAADA9C6729AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12E2CE16CC6DBFE8E7816F40C4C5C37 /* Build configuration list for PBXNativeTarget "Pods-KPgoLocoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				972A43EA06726E7C10919B6678550BDF /* Debug */,
+				7B193506258D34C7A460387A3E71436C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C638F8EFA97E3A2E2D3AB4276576CF50 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE0C0C5F699CD86ED4EB5C28503F1F6 /* Debug */,
+				C63877BD2520268466B1D425137069A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,20 @@
+
+
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'KPgoLoco' do
+
+end
+
+target 'KPgoLocoTests' do
+
+end
+
+target 'KPgoLocoUITests' do
+
+end
+
+pod 'SBJson','~> 4.0.1'
+
+
